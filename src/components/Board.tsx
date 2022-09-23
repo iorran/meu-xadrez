@@ -31,8 +31,8 @@ export const Board = () => {
 const StyledSlot = styled.div<{ color: string }>`
   display: flex;
   background: ${({ color }) => color};
-  width: 72px;
-  height: 72px;
+  width: 40px;
+  height: 40px;
 `;
 
 const StyledRow = styled.div`
